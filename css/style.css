@@ -1,0 +1,419 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.8;
+}
+
+p, h1, h2, h3, h4, h5, h6, strong {
+    font-family: 'Lato', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, li {
+    font-size: 22px;
+    line-height: 2.3;
+}
+
+.txt-cntr {
+    text-align: center;
+}
+
+.t-whites {
+    color: #fff;
+}
+
+.resp {
+    width: 100%;
+    height: auto;
+}
+
+.main-bans-lbd2-tdr {
+}
+
+.tt {
+    line-height: 1.5;
+    font-weight: 500;
+    font-size: 22px;
+}
+
+.cts {
+    background-color: #F9F1ED;
+    color: #212121;
+    padding: 12px 30px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.resps {
+    width: 100%;
+    max-width: 100px;
+    height: auto;
+}
+
+.tir {
+    position: absolute;
+    bottom: -10px;
+    left: 170px;
+}
+
+.main-lefts-lbd2-tdr {
+    position: relative;
+}
+
+.gh {
+    margin-top: 60px;
+}
+
+.main-imgs-lbd2-tdr {
+    margin-top: 40px;
+}
+
+.int-hs {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.intros-lbd2-tdr-sub {
+    font-size: 50px;
+    color: #126c7d;
+    margin-top: 0px;
+}
+
+.ulc {
+    padding-left: 27px;
+    list-style-image: url('../img/icon.png');
+}
+
+.offr-subs-lbd2-tdr {
+    font-size: 45px;
+    margin-top: 0px;
+    font-weight: 900;
+}
+
+.off-hed {
+    font-size: 30px;
+}
+
+.heads-lbd2-tdr {
+    background-color: #E58C6C;
+}
+
+.offer-sections-lbd2-tdr {
+    margin-top: 40px;
+}
+
+.resp3 {
+    width: 100%;
+    max-width: 800px;
+    height: auto;
+}
+
+.benefits {
+    padding: 30px 10px;
+}
+
+.bene-cons-lbd2-tdr-lbd2-tdr {
+    font-size: 25px;
+}
+
+.ben-fs {
+    padding: 30px 0px;
+}
+
+.bene-cons-lbd2-tdr {
+    padding: 10px;
+}
+
+.ban-imgs {
+    clip-path: polygon(0% 0%, 100% 0%, 100% 89%, 75% 89%, 75% 100%, 58% 89%, 1% 88%);
+    border: 20px solid #fff;
+}
+
+.inget-heads-lbd2-tdr {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.ingt-lbd2-tdr-mgs {
+    padding: 10px;
+}
+
+.ingt-lbd2-tdr-mgs img {
+    border-radius: 50%;
+}
+
+.ingredients {
+    background-color: #F9F1ED;
+    padding: 30px 0px;
+}
+
+.faqs-lbd2-tdr-bet {
+    margin-top: 30px;
+}
+
+.offer-1s-lbd2-tdr {
+    padding: 30px;
+    margin: 15px;
+    background-color: #F9F1ED;
+}
+
+.spcls-lbd2-tdr {
+    padding: 45px 0px;
+}
+
+.sp-offer-lbd2-tdr {
+    padding: 10px;
+}
+
+.bst {
+    font-size: 30px;
+    margin: 0px;
+}
+
+.mony-imgs {
+    padding: 30px;
+}
+
+.money {
+    background-color: #F9F1ED;
+    padding: 40px 0px;
+}
+
+.approve {
+    list-style: none;
+}
+
+.approve li img {
+    width: auto;
+    max-width: 150px;
+}
+
+.price {
+    margin: 50px 0px;
+}
+
+.price-of-lbd2-tdr {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.price-of-lbd2-tdr-ims {
+    border: 4px solid #1b8519;
+    margin: 20px;
+}
+
+.fote {
+    background-color: #E58C6C;
+    padding: 40px 5px;
+}
+
+.coot-con a {
+    color: #fff;
+}
+
+.reps {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+}
+
+.brand-logos-lbd2-tdr a {
+    color: #fff;
+}
+
+.grows {
+    cursor: pointer;
+    transition: all 0.8s ease-in;
+}
+
+.grows:hover {
+    transform: scale(1.1);
+}
+
+/*form*/
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #E58C6C;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.panel {
+    min-height: calc(100vh - 150px);
+}
+
+/*calulator*/
+.calculator {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    max-width: 600px;
+    margin: 20px auto; 
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label, input, select {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: #E58C6C;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+@media screen and (max-width: 520px) {
+    .int-hs {
+        font-size: 40px;
+    }
+
+    .intros-lbd2-tdr-sub {
+        font-size: 35px;
+    }
+
+    .offr-subs-lbd2-tdr {
+        font-size: 35px;
+    }
+
+    .off-hed {
+        font-size: 21px;
+    }
+
+    .inget-heads-lbd2-tdr {
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .wraps-lbd2-tdr {
+        padding: 20px;
+    }
+
+    .m-cnts-lbd2-tdr {
+        text-align: center;
+    }
+
+    .m-cnts-lbd2-tdr {
+        margin: 0px;
+    }
+
+    .heads-lbd2-tdr {
+        background-color: #E58C6C;
+    }
+
+    .nn {
+        display: none;
+    }
+    
+    .ingt-lbd2-tdr-mgs.txt-cntr img,
+  .ingt-lbd2-tdrs-img.flx.jus-1.al-cntr img {
+    max-width: 75%;
+    height: auto;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+    .wraps-lbd2-tdr {
+        width: 80%;
+        margin: auto;
+    }
+
+    .flx {
+        display: flex;
+    }
+
+    .jus-1 {
+        justify-content: space-between;
+    }
+
+    .jus-2 {
+        justify-content: space-around;
+    }
+
+    .al-cntr {
+        align-items: center;
+    }
+
+    .main-lefts-lbd2-tdr {
+        width: 50%;
+    }
+
+    .main-imgs-lbd2-tdr {
+        width: 50%;
+    }
+
+    .feat-urls {
+        width: 50%;
+    }
+
+    .bene-cons-lbd2-tdr {
+        width: 50%;
+    }
+
+    .ban-imgs {
+        width: 50%;
+    }
+
+    .offer-1s-lbd2-tdr {
+        width: 33%;
+    }
+
+    .mony-imgs {
+        width: 30%;
+    }
+
+    .moeny-cons {
+        width: 70%;
+    }
+}
